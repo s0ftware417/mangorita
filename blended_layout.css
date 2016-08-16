@@ -15,11 +15,13 @@ overflow : auto;
 margin : 0 auto;
 }
 .pageHeader{
-background-color : rgba(0, 0, 0, 0.5);
+	position: fixed;
+background-color : #ecf3fa;
 float : left;
 clear : none;
 height : 200px;
 width : 1200px;
+border-bottom: 2px #6889b7 solid
 }
 .pageBarLeft{
 float : left;
@@ -49,8 +51,9 @@ height : 300px;
 width : 200px;
 }
 .pageContent{
+
 background-color : #d6d6d6;
-float : left;
+float: none;
 clear : none;
 height : 1000px;
 width : 800px;
@@ -76,9 +79,30 @@ height : 300px;
 width : 200px;
 }
 .pageRightBottom{
-background-color : rgba(0, 0, 0, 0.5);
-float : none;
-clear : both;
-height : 300px;
-width : 200px;
+	background-color : rgba(0, 0, 0, 0.5);
+	float : none;
+	clear : both;
+	height : 300px;
+	width : 200px;
+}
+.headerContactInfo{
+	position: relative;
+	width: 250px;
+	height: 200px;
+	text-align: right;
+	float: right;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-shadow: 1px 1px #6889b7;
+}
+.butt{
+	border-radius: 5px;
+	border: 2px solid #000;
+	background-color: #6889b7;
+	color: #000;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
 }
